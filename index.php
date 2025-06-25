@@ -71,14 +71,6 @@
   </div>
 </header><!-- End Header -->
 
-<!-- ======= Hero Section ======= -->
-<section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-  <div class="hero-container" data-aos="fade-in">
-    <h1>Civer Yoshioka</h1>
-    <p>I'm <span class="typed" data-typed-items="Lecturer, Developer, Photographer"></span></p>
-  </div>
-</section><!-- End Hero -->
-
 <main id="main">
 
   <!-- ======= About Section ======= -->
@@ -210,56 +202,9 @@
 
   <!-- ======= Resume Section ======= -->
   <section id="resume" class="resume ">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Publikasi</h2>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-12" data-aos="fade-up">
-          <h3 class="resume-title"></h3>
-          <div class="resume-item pb-0">
-              <h4>Jurnal</h4>
-              <h5>2019</h5> 
-              <ul>
-                  <li><strong>Titis Octary Satrio, Arna Fariza, Mu'arifin,</strong> <i> Spatial Disaster Risk Assesment of Kelud Eruption, Indonesia, using Fuzzy,</i> JOIV: International Journal on Informatics Visualization, Vol. 3, No. 2, pp. 213-217, August 2019</li>                               
-              </ul>
-              <h5>2015</h5> 
-              <ul>
-                  <li><strong>Mu'arifin, Tri Harsono, Ali Ridho Barakbah,</strong> <i> Evacuation System in a Building using Cellular Automata for Pedestrian Dynamics,</i> EMITTER International Journal of Engineering Technology, Vol. 3, No. 1, pp. 38-52, June 2015</li>                               
-              </ul>
-
-          </div>
-
-         
-          <div class="resume-item pb-0">
-              <h4>Conference</h4>
-              <h5>2020</h5> 
-              <ul>            
-                  <li><strong>Miftahun Najat, Ali Ridho Barakbah, Mu'arifin,</strong> <i>Implementation Of Automatic Clustering In Parallel Computation With Multi-Threading And Socket Programming,</i> International Electronics Symposium (IES) 2020-IEEE co-sponsored conference, September 29-30, 2020, Surabaya, Indonesia</li>
-                  <li><strong>Nana Ramadijanti, Mu’arifin, Achmad Basuki,</strong> <i>Comparison of Covid-19 Cases in Indonesia and Other Countries for Prediction Models in Indonesia Using Optimization in SEIR Epidemic Models,</i> 2020 International Conference on ICT for Smart Society (ICISS), Nov 19-20, 2020, Bandung, Indonesia</li>
-                  <li><strong>Arna Fariza, Mu'arifin, Amailina Puspitasari,</strong> <i>Spatial Fuzzy Risk Mapping for Tuberculosis in Surabaya, Indonesia,</i> International Electronics Symposium (IES) 2020-IEEE co-sponsored conference, September 29-30, 2020, Surabaya, Indonesia<</li>
-                </ul>
-              <h5>2019</h5> 
-              <ul>                             
-                  <li><strong>Arna Fariza, Mu’arifin, Agus Zainal Arifin,</strong> <i>Age Estimation System Using Deep Residual Network Classification Method,</i> 2019 International Electronics Symposium (IES), September 27-28, 2019, Surabaya, Indonesia</li>
-              </ul>
-              <h5>2018</h5> 
-              <ul>                             
-                  <li><strong>Mohammad Robihul Mufid, Nilla Rachmi Kusuma Saginta Putri, Arna Fariza, Mu'arifin,</strong> <i>Fuzzy Logic and Exponential Smoothing for Mapping Implementation of Dengue Haemorrhagic Fever in Surabaya,</i> 2018 International Electronics Symposium on Knowledge Creation and Intelligent Computing (IES-KCIC), 29-30 Oct 2018, Bali, Indonesia</li>
-              </ul>
-              <h5>2015</h5> 
-              <ul>
-                  <li><strong>Tri Harsono, Ali Ridho Barakbah, Kohei ARAI, Mu'arifin,</strong> <i> Human Behavior Based Evacuation in A Large Room Using Cellular Automata Model For Pedestrian Dynamics,</i> The Third Indonesian-Japanese Conference on Knowledge Creation and Intelligent Computing (KCIC) 2014, March 25-26, 2014, Malang, Indonesia</li>
-              </ul>
-          </div>
-         
-        </div>
-       
-      </div>
-
-    </div>
+    <?php
+      require_once "publikasi.php";
+    ?>
   </section><!-- End Resume Section -->
 
 
